@@ -81,7 +81,7 @@ develop = false
 type = "git"
 url = "git@github.mwilczek-net:mwilczek-net/python-test-lib.git/"
 reference = "master"
-resolved_reference = "2992a80ca500f4c28a0947b7cc965411ad522331"
+resolved_reference = "06ff6e238b59547b7bf83cbe94481a98adbe4a2d"
 
 [metadata]
 lock-version = "2.0"
