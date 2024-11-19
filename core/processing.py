@@ -1,4 +1,6 @@
+from pythontestlib.strings import format
+
 def process() -> str:
-    return """
+    return format.skip_indentation("""
     This is a text
-    """
+    """)
