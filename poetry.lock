@@ -23,6 +23,19 @@ files = [
 ]
 
 [[package]]
+name = "numlib"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = "^3.11"
+files = []
+develop = false
+
+[package.source]
+type = "directory"
+url = ".venv/src/python-test-lib/numlib"
+
+[[package]]
 name = "packaging"
 version = "24.2"
 description = "Core utilities for Python packages"
@@ -77,13 +90,16 @@ python-versions = "^3.11"
 files = []
 develop = false
 
+[package.dependencies]
+numlib = {path = "numlib"}
+
 [package.source]
 type = "git"
-url = "git@github.mwilczek-net:mwilczek-net/python-test-lib.git/"
+url = "git@github.mwilczek-net:mwilczek-net/python-test-lib.git"
 reference = "master"
-resolved_reference = "06ff6e238b59547b7bf83cbe94481a98adbe4a2d"
+resolved_reference = "f84bb43860c3dffb4801dc1afa6902ac2ad9d120"
 
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "943e90161631fc74e5d0485599e0898088410c16358088023f3cddb46c0b7a49"
+content-hash = "a3de059f496d96d0e356e2c28cea334037281ea549969f57916f6e25c44691b2"
