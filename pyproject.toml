@@ -8,7 +8,8 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pythontestlib = {git = "git@github.mwilczek-net:mwilczek-net/python-test-lib.git", rev = "master"}
+# pythontestlib = {git = "git@github.mwilczek-net:mwilczek-net/python-test-lib.git", rev = "master"
+numlib = {git = "git@github.mwilczek-net:mwilczek-net/python-test-lib.git", rev = "master", subdirectory = "numlib"}
 
 
 [tool.poetry.group.dev.dependencies]
